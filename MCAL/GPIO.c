@@ -250,22 +250,22 @@ void GPIO_WritePort(uint8 Port, uint8 value)
        switch(Port)
             {
             case PORTA:
-              *GPIO_PORTA_DATA_BITS_R = value;
+              GPIO_PORTA_DATA_R = value;
               break;
             case PORTB:
-              *GPIO_PORTB_DATA_BITS_R = value;
+              GPIO_PORTB_DATA_R = value;
               break;
             case PORTC:
-              *GPIO_PORTC_DATA_BITS_R = value;
+              GPIO_PORTC_DATA_R = value;
               break;
             case PORTD:
-              *GPIO_PORTD_DATA_BITS_R = value;
+              GPIO_PORTD_DATA_R = value;
               break;
              case PORTE:
-              *GPIO_PORTE_DATA_BITS_R = value;
+              GPIO_PORTE_DATA_R = value;
               break;
              case PORTF:
-              *GPIO_PORTF_DATA_BITS_R = value;
+              GPIO_PORTF_DATA_R = value;
               break;         
               
             }

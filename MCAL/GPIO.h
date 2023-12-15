@@ -5,8 +5,8 @@
 /*************************************************************
 *                           Includes
 **************************************************************/
-#include "D:\Engineering\S07\Intro to Embedded\Project\Types.h"
-#include "D:\Engineering\S07\Intro to Embedded\Project\tm4c123gh6pm.h"
+#include "D:\Engineering\S07\Intro to Embedded\Li-fi Project\Types.h"
+#include "D:\Engineering\S07\Intro to Embedded\Li-fi Project\tm4c123gh6pm.h"
 
 /*******************************************************************************
 *                                Definitions                                  *
