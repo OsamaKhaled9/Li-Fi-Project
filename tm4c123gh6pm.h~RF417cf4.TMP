@@ -9873,7 +9873,7 @@
 //*****************************************************************************
 #define SYSCTL_RCGC1_COMP1      0x02000000  // Analog Comparator 1 Clock Gating
 #define SYSCTL_RCGC1_COMP0      0x01000000  // Analog Comparator 0 Clock Gating
-#define SYSCTL_RCGC1_TIMER3     0x00080000  //  3 Clock Gating Control
+#define SYSCTL_RCGC1_TIMER3     0x00080000  // Timer 3 Clock Gating Control
 #define SYSCTL_RCGC1_TIMER2     0x00040000  // Timer 2 Clock Gating Control
 #define SYSCTL_RCGC1_TIMER1     0x00020000  // Timer 1 Clock Gating Control
 #define SYSCTL_RCGC1_TIMER0     0x00010000  // Timer 0 Clock Gating Control

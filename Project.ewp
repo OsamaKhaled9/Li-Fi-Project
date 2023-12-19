@@ -172,7 +172,8 @@
         </option>
         <option>
           <name>CCDefines</name>
-          <state></state>
+          <state>PART_TM4C123GH6PM</state>
+          <state>TARGET_IS_TM4C123_RB1</state>
         </option>
         <option>
           <name>CCPreprocFile</name>
@@ -301,7 +302,7 @@
         </option>
         <option>
           <name>CCIncludePath2</name>
-          <state></state>
+          <state>C:\ti\TivaWare_C_Series-2.2.0.295</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -755,7 +756,7 @@
         </option>
         <option>
           <name>IlinkAdditionalLibs</name>
-          <state></state>
+          <state>C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\ewarm\Exe\driverlib.a</state>
         </option>
         <option>
           <name>IlinkOverrideProgramEntryLabel</name>
@@ -1877,12 +1878,33 @@
     </settings>
   </configuration>
   <group>
+    <name>HAL</name>
+    <file>
+      <name>$PROJ_DIR$\HAL\fume.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\HAL\fume.h</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\HAL\magnetic.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\HAL\magnetic.h</name>
+    </file>
+  </group>
+  <group>
     <name>MCAL</name>
     <file>
       <name>$PROJ_DIR$\MCAL\GPIO.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\MCAL\GPIO.h</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MCAL\gptm.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MCAL\gptm.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\MCAL\systick.c</name>

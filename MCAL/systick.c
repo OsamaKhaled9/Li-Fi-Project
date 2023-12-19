@@ -36,7 +36,21 @@ return GET_BIT(NVIC_ST_CTRL_R,16);
   
   
 }
-void SysTick_Handler(void)
-{
-        GPIO_PORTF_DATA_R  ^= 0x0E;  //toggle the white led
+
+void SysTick_Handler(void){
+  volatile uint8 flag = 0;
+volatile uint8 counter = 0;
+  if(counter < 5){
+    counter++;
+  } else{
+    if(flag == 1){
+    GPIO_WritePort(PORTF , 0x0E);//White LED
+    flag = 0;
+  } else {
+    GPIO_WritePort(PORTF , 0);// LED OFF
+    flag = 1;
+  }
+  counter = 0;
+  }
+      
 }

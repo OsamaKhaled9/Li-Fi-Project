@@ -2,72 +2,156 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>588500697</fileChecksum>
+  <fileChecksum>3982118213</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\Debug\Obj\Project.pbd</file>
-      <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
-      <file>$PROJ_DIR$\tm4c123gh6pm.h</file>
-      <file>$PROJ_DIR$\startup_ewarm.c</file>
-      <file>$PROJ_DIR$\MCAL\GPIO.h</file>
-      <file>$PROJ_DIR$\main.c</file>
-      <file>$PROJ_DIR$\MCAL\GPIO.c</file>
       <file>$PROJ_DIR$\MCAL\systick.c</file>
-      <file>$PROJ_DIR$\bitwise_operations.h</file>
+      <file>$PROJ_DIR$\HAL\fume.h</file>
+      <file>$PROJ_DIR$\HAL\magnetic.c</file>
       <file>$PROJ_DIR$\MCAL\systick.h</file>
-      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-      <file>$PROJ_DIR$\Debug\Obj\systick.o</file>
-      <file>$PROJ_DIR$\Debug\Exe\c.out</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\GPIO.o</file>
+      <file>$PROJ_DIR$\HAL\fume.c</file>
+      <file>$PROJ_DIR$\HAL\magnetic.h</file>
+      <file>$PROJ_DIR$\MCAL\GPIO.c</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
       <file>$PROJ_DIR$\Debug\Obj\GPIO.pbi</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
-      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-      <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.pbi</file>
+      <file>$PROJ_DIR$\MCAL\gptm.h</file>
+      <file>$PROJ_DIR$\bitwise_operations.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\tm4c123gh6pm.h</file>
       <file>$PROJ_DIR$\Types.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\MCAL\gptm.c</file>
+      <file>$PROJ_DIR$\MCAL\GPIO.h</file>
+      <file>$PROJ_DIR$\startup_ewarm.c</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\magnetic.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\systick.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\fume.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.pbi</file>
+      <file>C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\pin_map.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\fume.o</file>
+      <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
+      <file>C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\interrupt.h</file>
       <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\magnetic.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\gptm.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
       <file>$TOOLKIT_DIR$\lib\m7M_tlv.a</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\gpio.h</file>
+      <file>C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_memmap.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_ints.h</file>
       <file>$PROJ_DIR$\Debug\Obj\systick.pbi</file>
+      <file>C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\ewarm\Exe\driverlib.a</file>
+      <file>C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\gptm.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\GPIO.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\timer.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Project.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\c.out</file>
     </outputs>
     <file>
-      <name>[ROOT_NODE]</name>
-      <outputs>
-        <tool>
-          <name>ILINK</name>
-          <file> 12</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\startup_ewarm.c</name>
+      <name>$PROJ_DIR$\MCAL\systick.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 20</file>
+          <file> 37</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 17</file>
+          <file> 20</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 29 25 24 23 30 16 22 26</file>
+          <file> 3 14 13 11 16</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 29 25 24 23 30 16 22 26</file>
+          <file> 3 14 13 11 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\HAL\magnetic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 16 14 13 11</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5 16 14 13 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\HAL\fume.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 16 14 13 11</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1 16 14 13 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MCAL\GPIO.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 14 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 14 13</file>
         </tool>
       </inputs>
     </file>
@@ -80,63 +164,59 @@
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 13</file>
+          <file> 52</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 4 21 2</file>
-        </tool>
-        <tool>
           <name>ICCARM</name>
-          <file> 4 21 2</file>
+          <file> 13 14 11 40 44 54 42 51 9 48 41 45 35 3 16 10 30 46 36 33 32 26 23 39 50 1</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\MCAL\GPIO.c</name>
+      <name>$PROJ_DIR$\MCAL\gptm.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 15</file>
+          <file> 29</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 14</file>
+          <file> 43</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 4 21 2</file>
+          <file> 10 30 46 44 54 42 51 9 48 41 36 33 32 26 23 39 50 16 14 13</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 4 21 2</file>
+          <file> 10 30 46 44 54 42 51 9 48 41 36 33 32 26 23 39 50 16 14 13</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\MCAL\systick.c</name>
+      <name>$PROJ_DIR$\startup_ewarm.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 31</file>
+          <file> 22</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 11</file>
+          <file> 34</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 9 21 2 8</file>
+          <file> 46 44 54 42 51 9 48 41</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 9 21 2 8</file>
+          <file> 46 44 54 42 51 9 48 41</file>
         </tool>
       </inputs>
     </file>
@@ -145,9 +225,18 @@
       <inputs>
         <tool>
           <name>ILINK</name>
-          <file> 1 14 13 17 11 19 10 28 18</file>
+          <file> 25 24 47 43 28 52 34 20 38 18 49 31 7</file>
         </tool>
       </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
     </file>
   </configuration>
   <configuration>

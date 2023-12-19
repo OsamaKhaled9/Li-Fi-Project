@@ -40,7 +40,7 @@ MultiCoreRunAll=1
 [LMIFTDIDriver]
 LMI_ResetMode=0x00000000
 [DebugChecksum]
-Checksum=-1503933351
+Checksum=-889548744
 [Exceptions]
 StopOnUncaught=_ 0
 StopOnThrow=_ 0
@@ -66,5 +66,9 @@ mode=0
 [Breakpoints]
 Count=0
 [Aliases]
-Count=0
+A0=_ "C:\Jenkins\workspace\TivaWare-Git-Release\DriverLib\build\DriverLib.test\driverlib\cpu.c" ""
+A1=_ "C:\Jenkins\workspace\TivaWare-Git-Release\DriverLib\build\DriverLib.test\driverlib\gpio.c" ""
+A2=_ "C:\Jenkins\workspace\TivaWare-Git-Release\DriverLib\build\DriverLib.test\driverlib\interrupt.c" ""
+A3=_ "C:\Jenkins\workspace\TivaWare-Git-Release\DriverLib\build\DriverLib.test\driverlib\timer.c" ""
+Count=4
 SuppressDialog=0
