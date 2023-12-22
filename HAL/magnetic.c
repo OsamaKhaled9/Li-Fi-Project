@@ -2,10 +2,12 @@
 
 void magnetic_init()
 {
-  Clock_Init(PORTC);
-  GPIO_Config_pin(PORTC , 6 , 0);
+  Clock_Init(PORTA);
+  //GPIO_Config_pin(PORTC , 6 , 0);
   
-
+GPIO_PORTA_CR_R = 0x04;
+  GPIO_PORTA_DIR_R = 0x00;
+  GPIO_PORTA_DEN_R = 0x04;
   
   
 }
@@ -15,7 +17,7 @@ void magnetic_init()
 uint8 magnetic_read()
 {
   
-       return GET_BIT(GPIO_PORTC_DATA_R, 6);
+       return GET_BIT(GPIO_PORTA_DATA_R, 2);
 
   
 }

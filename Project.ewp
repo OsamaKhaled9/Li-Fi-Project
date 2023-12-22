@@ -1880,6 +1880,12 @@
   <group>
     <name>HAL</name>
     <file>
+      <name>$PROJ_DIR$\HAL\bluetooth.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\HAL\bluetooth.h</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\HAL\fume.c</name>
     </file>
     <file>
@@ -1911,6 +1917,12 @@
     </file>
     <file>
       <name>$PROJ_DIR$\MCAL\systick.h</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MCAL\uart.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MCAL\uart.h</name>
     </file>
   </group>
   <file>

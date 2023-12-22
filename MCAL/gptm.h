@@ -1,32 +1,83 @@
+#ifndef gptm_h
+#define gptm_h
+
+
+/*************************************************************
+*                           Includes
+**************************************************************/
 #include <stdbool.h>
 #include <stdint.h>
-#include "inc/hw_ints.h"
-#include "inc/hw_memmap.h"
-#include "driverlib/gpio.h"
 #include "driverlib/interrupt.h"
-#include "driverlib/pin_map.h"
-#include "driverlib/sysctl.h"
 #include "driverlib/timer.h"
 
-
 #include "D:\Engineering\S07\Intro to Embedded\Li-fi Project\MCAL\GPIO.h"
+#include "D:\Engineering\S07\Intro to Embedded\Li-fi Project\tm4c123gh6pm.h"
+#include "D:\Engineering\S07\Intro to Embedded\Li-fi Project\Types.h"
+
+/*******************************************************************************
+*                                Function Prototypes                           *
+*****************************************************************************
+Timer_init()
+Function to initialize the timer
+This function is responsible for initializing the timer.
+It does not take any parameters and does not return any value. 
+Its purpose is to set up the timer for further operations.
+****************************************************************/
+void Timer_init(int time);
 
 
+/************************************************************************************
+Function to delay for a specified time in milliseconds
+TimerDelay(uint32 delay)
+This function is used to introduce a delay for a specified time in milliseconds. 
+It takes a single parameter delay, which specifies the time to delay in milliseconds. 
+The function does not return any value.
+***************************************************************************************/
+void TimerDelay(uint32 delay);
 
+/*******************************************************************************
+Function to start the timer
+TimerStart()
+The TimerStart() function is used to start the timer. 
+It does not take any parameters and does not return any value. 
+Its purpose is to initiate the timer counting.
+*******************************************************************************/
+void TimerStart();
 
-/*#define SYSCTL_RCGCTIMER_R5      0x00000020  // Timer 5 Run Mode Clock Gating
-                                            // Control
-#define SYSCTL_RCGCTIMER_R4       0x00000010  // Timer 4 Run Mode Clock Gating
-                                            // Control
-#define SYSCTL_RCGCTIMER_R3      0x00000008  // Timer 3 Run Mode Clock Gating
-                                            // Control
-#define SYSCTL_RCGCTIMER_R2     0x00000004  // Timer 2 Run Mode Clock Gating
-                                            // Control
-#define SYSCTL_RCGCTIMER_R1     0x00000002  // Timer 1 Run Mode Clock Gating
-                                            // Control
-#define SYSCTL_RCGCTIMER_R0     0x00000001  // Timer 0 Run Mode Clock Gating
-                                            // Control
-*/
-void Timer_init();
+/*******************************************************************************
+Function to set the timer value
+TimerSet(uint32_t value)
+This function is used to set the timer value. 
+It takes a single parameter value, which specifies the desired timer value. 
+The function does not return any value.
+********************************************************************************/
+void TimerSet(uint32 value);
 
-void Timerdelay( uint32 delay );
+/******************************************************************************* 
+Function to read the current timer value
+TimerRead()
+The TimerRead() function is used to read the current value of the timer. 
+It does not take any parameters and returns the current timer value as a uint32_t data type.
+********************************************************************************/
+uint32 TimerRead(void);
+
+/******************************************************************************* 
+Function to reset the timer
+TimerReset()
+This function is responsible for resetting the timer. 
+It does not take any parameters and does not return any value. 
+Its purpose is to reset the timer to its initial value.
+*******************************************************************************/
+void TimerReset(void);
+
+/******************************************************************************* 
+Function to stop the timer
+TimerStop()
+The TimerStop() function is used to stop the timer. 
+It does not take any parameters and does not return any value. 
+Its purpose is to halt the timer counting.
+*******************************************************************************/
+void TimerStop(void);
+
+void TIMER1A_DELAY_MS(int time);
+#endif
